@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jap web</title>
+    <link rel ="web icon" type="jpg" href="world.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navBar1">
+        <div class="toleft">
+            <h1>paul</h1>
+        </div>
+        <div class="toright" id="nav-links">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="skills.html">Skills</a>
+            <a class="nav-link" href="projects.html">Projects</a>
+            <a class="nav-link" href="contact.html">Contact</a>
+        </div>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <script src="js.js"></script>
+    </nav>
+
+    <div class="picdiv" id="none">
+        <img src="img.jpg" width="400" height="300" class="rounded-image">
+    </div>
+
+    <div class="container">
+        <h1>Contact Me</h1>
+        <form class="contact-form" id="contactForm" action="send_email.php" method="post">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <div class="form-group">
+                <input type="submit" id="submit" value="Send Message">
+            </div>
+        </form>
+
+        
+        <script src="send-email.js"></script>
+        <?php include 'send-email.php';?>
+    </div>
+
+</body>
+</html>
