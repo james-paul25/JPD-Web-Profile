@@ -498,7 +498,7 @@ input[type="radio"]:checked + .carousel-inner .carousel-item {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-top: 150px;
+    margin-top: 110px;
     margin-left: 100px;
 }
 
@@ -532,11 +532,11 @@ h1 {
     box-sizing: border-box;
 }
 
-.form-group textarea {
+.form-group #message {
     height: 100px;
 }
 
-.form-group input[type="submit"] {
+.form-group button[type="submit"] {
     background-color: #007bff;
     color: #fff;
     border: none;
@@ -545,7 +545,7 @@ h1 {
     cursor: pointer;
 }
 
-.form-group input[type="submit"]:hover {
+.form-group button[type="submit"]:hover {
     background-color: #0056b3;
 }
 
@@ -640,8 +640,8 @@ h1 {
             flex-direction: column;
             padding-top: 200px;
         }
-        .center h2{
-            padding-left: 50px;
+        .center h2, .center p{
+            text-align: center;
         }
         section{
             text-align: center;
