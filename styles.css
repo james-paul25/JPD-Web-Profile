@@ -213,8 +213,8 @@ section h1{
 }
 
 .edu-entry {
-    display: flex; /* Use flexbox to align items */
-    flex-direction: column; /* Stack items vertically */
+    display: flex;
+    flex-direction: column;
     gap: 40px;
     text-align: center;
 }
@@ -226,14 +226,14 @@ section h1{
     flex-direction: column;
 }
 .edu-entry h2{
-    margin: 0; /* Reset default margin */
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     padding-left: 10px;
 }
 .edu-entry h4 {
-    margin: 0; /* Reset default margin */
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -298,7 +298,7 @@ section h1{
     flex-direction: column;
 }
 .inter{
-    margin: 10px; /* Reset default margin */
+    margin: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -414,7 +414,7 @@ input[type="radio"]:checked + .carousel-inner .carousel-item {
 .carousel-item h3{
     position: absolute;
     font-size: 50px;
-    bottom: 300px; /* Adjust as needed */
+    bottom: 300px;
     left: 0;
     right: 0;
     text-align: center;
@@ -425,11 +425,11 @@ input[type="radio"]:checked + .carousel-inner .carousel-item {
     position: absolute;
     bottom: 10px;
     left: 0;
-    right: 0; /* Center the indicators */
-    margin: 0 auto; /* Center horizontally */
+    right: 0;
+    margin: 0 auto;
     display: flex;
-    justify-content: center; /* Center the items horizontally */
-    list-style: none; /* Remove default list styles */
+    justify-content: center;
+    list-style: none;
 }
 
 
@@ -655,19 +655,19 @@ h1 {
             flex-direction: column;
         }
         .edu-entry {
-            display: flex; /* Use flexbox to align items */
-            flex-direction: column; /* Stack items vertically */
+            display: flex;
+            flex-direction: column;
             gap: 10px;
             text-align: center;
         }
         .edu-entry h2{
-            margin: 0; /* Reset default margin */
+            margin: 0;
             display: flex;
             justify-content: center;
             align-items: center;
         }
         .edu-entry h4 {
-            margin: 0; /* Reset default margin */
+            margin: 0;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -687,11 +687,11 @@ h1 {
         .carousel-item h3{
             position: absolute;
             font-size: medium;
-            bottom: 100px; /* Adjust as needed */
+            bottom: 75px;
             left: 0;
             right: 0;
             text-align: center;
-            color: rgb(41, 184, 184);
+            color: white;
             margin: 0;
         }
 
