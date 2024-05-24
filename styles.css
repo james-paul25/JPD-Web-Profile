@@ -356,61 +356,7 @@ section h1{
     display: flex;
 }
 
-
 /*services*/
-.carousel {
-    position: relative;
-    max-width: 100%;
-    overflow: hidden;
-}
-
-.carousel-inner {
-    display: flex;
-    padding-bottom: 5px;
-}
-
-.carousel-item {
-    flex: 0 0 100%;
-    position: relative;
-    transition: opacity 0.5s;
-}
-
-.carousel-item img {
-    max-width: 100%;
-    height: auto;
-
-}
-
-input[type="radio"]:checked + .carousel-inner .carousel-item {
-    opacity: 1;
-}
-.carousel-item .nav-btn {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 50px;
-    height: 50px;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    font-size: 24px;
-    text-align: center;
-    line-height: 50px;
-    cursor: pointer;
-    z-index: 2;
-    transition: background-color 0.3s ease;
-}
-
-.carousel-item .nav-btn:hover {
-    background-color: rgba(0, 0, 0, 0.7);
-}
-
-.carousel-item .prev {
-    left: 10px;
-}
-
-.carousel-item .next {
-    right: 10px;
-}
 .carousel-item h3{
     position: absolute;
     font-size: 50px;
@@ -420,27 +366,6 @@ input[type="radio"]:checked + .carousel-inner .carousel-item {
     text-align: center;
     color: white;
     margin: 0;
-}
-.carousel-indicators {
-    position: absolute;
-    bottom: 10px;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    list-style: none;
-}
-
-
-.carousel-indicators label {
-    cursor: pointer;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    background-color: #888;
-    margin: 0 5px;
-    transition: background-color 0.3s ease;
 }
 
 /*PROJECTS*/
